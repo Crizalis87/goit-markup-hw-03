@@ -199,9 +199,12 @@ margin-right: 50px;
 /* Section "Features" */
 
 .features {
-  padding: 94px 0px 94px 0px;
+  padding-top: 94px;
 }
 
+.section {
+  padding-bottom: 94px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -246,9 +249,6 @@ margin-right: 50px;
 
 /* Styles for section Works */
 
-.works {
-  margin-bottom: 94px;
-}
 
 .title {
   font-weight: 700;
@@ -275,7 +275,6 @@ margin-right: 50px;
   align-items: center;
   justify-content: center;
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .title-team {
