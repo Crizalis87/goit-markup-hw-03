@@ -327,12 +327,14 @@ body {
 }
 
 .footer-logo {
+  display: block;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
   color: var(--accent-logo);
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 /* Color Logo in Footer */
@@ -340,19 +342,12 @@ body {
   color: var(--footer-logo);
 }
 
-.footer-contacts {
-  display: flex;
+.footer-contacts-list {
   font-style: normal;
   list-style-type: none;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  padding-left: 0px;
-  margin-top: 20px;
-  margin-bottom: 0px;
 }
 
-.footer-contacts > li {
+.footer-contacts-item {
   margin-bottom: 9px;
 }
 
