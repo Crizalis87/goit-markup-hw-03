@@ -347,7 +347,7 @@ body {
   list-style-type: none;
 }
 
-.footer-contacts-item {
+.footer-contacts-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
