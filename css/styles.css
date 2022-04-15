@@ -436,7 +436,6 @@ body {
 
 .card-project {
   background-color: #ffffff;
-  box-sizing: border-box;
 }
 
 .card-project:nth-child(-n + 6) {
